@@ -1,0 +1,127 @@
+/* Screams internally */
+
+html {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	margin: 0 auto;
+	width: 800px;
+}
+
+ul {
+	all: unset;
+}
+
+li {
+	all: unset;
+}
+
+h1 {
+	font-size: 56px;
+	line-height: 0;
+	color: #424242;
+}
+
+h2 {
+	font-size: 32px;
+	margin: 0;
+	line-height: 32px;
+}
+
+p {
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+	margin: 0;
+}
+
+header {
+	width: 100%;
+	height: 40px;
+	margin-top: 117px;
+	margin-bottom: 28px;
+}
+
+header * {
+	display: inline-block;
+	height: 40px;
+	margin: 0;
+}
+
+pre {
+	margin: 0;
+}
+
+code {
+	font-family: 'Courier New', Courier, monospace;
+}
+
+#logo {
+	margin-right: 19px;
+}
+
+#cards {
+	display: grid;
+	grid-template-areas:
+		'image image'
+		'history example'
+		'history example';
+	gap: 32px;
+}
+
+.card {
+	background: #E9EAEC;
+	border-radius: 20px;
+}
+
+.card p {
+	margin-top: 22px;
+}
+
+section {
+	margin: 32px;
+}
+
+#computer-image {
+	grid-area: image;
+	width: 800px;
+	height: 227px;
+}
+
+#computer-image img {
+	border-radius: 20px;
+}
+
+#history {
+	grid-area: history;
+	width: 384px;
+	height: 373px;
+}
+
+#example {
+	grid-area: example;
+	height: 373px;
+	width: 384px;
+}
+
+#example section {
+	margin-bottom: 0;
+}
+
+#code-container {
+	background: #424242;
+	height: 238px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	padding-top: 11px;
+	margin-top: 11px;
+	padding-left: 32px;
+	line-height: 26px;
+}
+
+#code-text {
+	margin-top: 11px;
+	color: white;
+	font-size: 18px;
+}
